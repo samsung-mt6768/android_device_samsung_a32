@@ -29,8 +29,8 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/hw/android.hardware.media.c2@1.2-mediatek', 'vendor/bin/hw/android.hardware.media.c2@1.2-mediatek-64b'): blob_fixup()
         .add_needed('libstagefright_foundation-v33.so'),
     ('vendor/bin/hw/vendor.samsung.hardware.camera.provider@4.0-service_64': blob_fixup()
-        .replace_needed('libbinder.so', 'libbinder-v31.so'),
-        .replace_needed('libhidlbase.so', 'libhidlbase-v31.so'),
+        .replace_needed('libbinder.so', 'libbinder-v31.so')
+        .replace_needed('libhidlbase.so', 'libhidlbase-v31.so')
         .replace_needed('libutils.so', 'libutils-v31.so'),
     'vendor/bin/hw/vendor.samsung.hardware.hyper-service': blob_fixup()
         .replace_needed('liblog.so', 'liblog-v31.so'),
