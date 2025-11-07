@@ -863,7 +863,7 @@ vendor/etc/media_codecs_dolby_audio.xml
 # DRM
 vendor/bin/hw/android.hardware.drm@1.4-service.widevine
 vendor/etc/init/android.hardware.drm@1.4-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.4-service.widevine.xml
 vendor/lib/mediadrm/libwvdrmengine.so
 vendor/lib/liboemcrypto.so
 vendor/lib/libtlcWidevineModularDrm.so
@@ -973,7 +973,7 @@ vendor/etc/hyper/config_hyper_permission.json
 vendor/etc/hyper/config_model.json
 vendor/etc/hyper/config_vendor.json
 vendor/etc/init/hyper-default-sec.rc
--vendor/etc/vintf/manifest/hyper-default-sec.xml
+vendor/etc/vintf/manifest/hyper-default-sec.xml
 vendor/lib/libhypermotion.uniplugin@1.0.so
 vendor/lib/libhypermotion_core.so
 vendor/lib64/libhyper.so
@@ -1215,7 +1215,7 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 # Neural-networks
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-gpu.xml
 vendor/etc/armnn_app.config
 vendor/lib/libarmnn.so
 vendor/lib/libarmnn_ndk.mtk.vndk.so
@@ -1245,7 +1245,7 @@ vendor/etc/init/sec.android.hardware.nfc@1.2-service.rc
 vendor/etc/nfc/sec_s3nrn4v_hwreg.bin
 vendor/etc/nfc/sec_s3nrn4v_swreg.bin
 vendor/etc/permissions/com.nxp.mifare.xml
--vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml
+vendor/etc/vintf/manifest/sec.android.hardware.nfc@1.2-service.xml
 vendor/lib/libnxp_extamp_intf.so
 vendor/lib/libnxpsmartpaparser.so
 vendor/lib64/libnxp_extamp_intf.so
@@ -1464,7 +1464,7 @@ vendor/bin/hw/vendor.samsung.hardware.snap-service
 vendor/bin/snap_utility_64
 vendor/etc/init/snap_utility.rc
 vendor/etc/init/vendor.samsung.hardware.snap-lazy.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.snap-default.xml
 vendor/etc/snap_gpu_kernel_64.bin
 vendor/lib64/libsnap_compute.so
 vendor/lib64/libsnap_compute_wrapper.so
@@ -1559,7 +1559,7 @@ vendor/lib64/libmtcloader.so
 # Thermal (samsung)
 vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
 vendor/etc/init/vendor.samsung.hardware.thermal@1.0-service.rc
--vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
+vendor/etc/vintf/manifest/vendor.samsung.hardware.thermal@1.0-manifest.xml
 vendor/etc/mercury.json
 vendor/lib/vendor.samsung.hardware.thermal@1.0.so
 vendor/lib64/vendor.samsung.hardware.thermal@1.0.so
