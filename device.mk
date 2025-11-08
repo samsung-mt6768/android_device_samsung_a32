@@ -415,6 +415,9 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung \
     vibrator.default
 
+# Libinit
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_a32)
+
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v31/arm/arch-arm-armv7-a-neon/shared/vndk-core/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder-v31.so \
