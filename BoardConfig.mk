@@ -139,7 +139,6 @@ BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # UDFPS
 TARGET_SEC_FP_REQUEST_FORCE_CALIBRATE := true
-$(call soong_config_set,surfaceflinger,udfps_lib,//$(DEVICE_PATH):libudfps_extension.a32
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
