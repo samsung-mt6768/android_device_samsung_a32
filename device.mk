@@ -145,6 +145,8 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service-samsung.a32 \
     SamsungUdfpsHandler.a32
 
+$(call soong_config_set,surfaceflinger,udfps_lib,//$(DEVICE_PATH):libudfps_extension.a32)
+
 # Gatekeeper
 PRODUCT_PACKAGES += \
     android.hardware.gatekeeper@1.0-impl \
