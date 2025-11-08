@@ -413,9 +413,6 @@ PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.samsung \
     vibrator.default
 
-# ViPER5AndroidFX
-$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
-
 # VNDK
 PRODUCT_COPY_FILES += \
     prebuilts/vndk/v31/arm/arch-arm-armv7-a-neon/shared/vndk-core/libbinder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbinder-v31.so \
